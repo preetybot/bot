@@ -3204,7 +3204,33 @@ Ket : Ketik /resetgame , Untuk Mereset Permainan Yg Ada Di Grup!`, text, {contex
        case 'sewabot':
        case 'iklan':
       gopeynya = `${setting.ppbot}`
-     teksnya = `${setting.hargaSewa}`
+     teksnya = `╭──「 *_SEWA BOT_* 」
+│❏  1 MINGGU : IDR 5.000 (5K)
+│❏  1 BULAN : IDR 20.000 (20K)
+╰────
+╭─ [ KELEBIHAN BOT ]
+│❏  ＯＮ 24 ＪＡＭ
+│❏  FITUR LANGKA
+╰────
+╭─[ KEUNTUNGAN ]
+│❏  ANTI LINK ( AUTO KICK )
+│❏  WELCOME ( OTOMATIS )
+│❏  DAN RATUSAN FITUR LAINYA
+╰────
+╭─[ *TES BOT? MASUK GRUB DI BAWAH* ]
+│❏ https://chat.whatsapp.com/E5znp0xYcneIbWhUXYhHSy
+╰────
+
+╭──「 *_Payment Pweety Store_* 」
+│❏   HARAP TF SESUAI NOM
+╰────
+╭─ [ Gopay, Dana, Ovo, Spay ]
+│❏  No : 087839915092
+│❏  An : AGL
+╰────
+╭─[ Qris All Payment ]
+│❏  Tanya owner
+╰─────`
               ikyy.sendMessage(from, await getBuffer(gopeynya), image, {quoted: mek, caption: teksnya, thumbnail: Buffer.alloc(0) })
               break
 //------------------< Sticker Cmd >-------------------
