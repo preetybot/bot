@@ -393,6 +393,8 @@ let waktu = d.toLocaleDateString(locale, { hour: 'numeric', minute: 'numeric', s
        for (let i of members){
        ane.push(i.jid)
 }
+ikyy.sendMessage(from, {text:text, jpegThumbnail:fs.readFileSync('media/Nakano.jpg')}, 'extendedTextMessage', {contextInfo: {"mentionedJid": ane}})
+
 }  
       const sendWebp = async(to, url) => {
            var names = Date.now() / 10000;
